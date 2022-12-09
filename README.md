@@ -16,6 +16,7 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 ## windows安装运行
+- https://www.w3cschool.cn/evilg/evilg-ki6q35t5.html
 - 编辑器： vscode
 - flutter版本：Flutter 3.3.9 • channel stable, Dart 2.18.5 • DevTools 2.15.0
 VisualStudio版本：Visual Studio Community 2022
@@ -43,4 +44,5 @@ androidStudio版本：Android studio Dolphin | 2021.3.1 Patch 1，Runtime versio
 
 ## 文件内容解析
 - /lib/main.dart，运行时的主文件，里面有运行的入口函数
+- 在pubspec.yaml文件，dependencies部分添加所依赖的库和版本，然后执行 flutter packages get 安装新的包依赖，并且在 pubspec.lock 中添加依赖版本信息
 
